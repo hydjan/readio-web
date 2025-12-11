@@ -113,42 +113,42 @@ const Download: React.FC = () => {
           <VersionButton
             platform="Android"
             arch="arm64-v8a"
-            filename="readio-android-arm64-v1.0.2.apk"
+            filename="呆呆阅读Readio0.0.5b-arm64-v8a-android.apk"
             icon={<Smartphone size={22} />}
             badge="推荐"
-            link="https://pan.quark.cn/s/26d2e080a02b"
+            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.5b-arm64-v8a-android.apk"
           />
           <VersionButton
             platform="Android"
             arch="armeabi-v7a"
-            filename="readio-android-armv7-v1.0.2.apk"
+            filename="呆呆阅读Readio0.0.5b-armeabi-v7a-android.apk"
             icon={<Smartphone size={22} />}
             badge="老旧设备"
-            link="https://pan.quark.cn/s/26d2e080a02b"
+            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.5b-armeabi-v7a-android.apk"
           />
           <VersionButton
             platform="Android"
             arch="x86_64"
-            filename="readio-android-x86_64-v1.0.2.apk"
+            filename="呆呆阅读Readio0.0.5b-x86_64-android.apk"
             icon={<Tv size={22} />}
             badge="模拟器"
-            link="https://pan.quark.cn/s/26d2e080a02b"
+            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.5b-x86_64-android.apk"
           />
 
           {/* Desktop Versions */}
           <VersionButton
             platform="Windows"
             arch="x64 / exe"
-            filename="Readio-Setup-1.0.2.exe"
+            filename="呆呆阅读Readio0.0.5b_windows.zip"
             icon={<Monitor size={22} />}
-            link="https://pan.quark.cn/s/26d2e080a02b"
+            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.5b_windows.zip"
           />
           <VersionButton
             platform="macOS"
             arch="Universal / app"
-            filename="Readio-1.0.2.dmg"
+            filename="呆呆阅读Readio0.0.4_mac.zip"
             icon={<Monitor size={22} />}
-            link="https://pan.quark.cn/s/26d2e080a02b"
+            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.4_mac.zip"
           />
         </div>
 
