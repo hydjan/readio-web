@@ -14,7 +14,7 @@ interface VersionButtonProps {
   icon: React.ReactNode;
   filename: string;
   badge?: string;
-  link: string; 
+  link: string;
 }
 
 const VersionButton: React.FC<VersionButtonProps> = ({
@@ -66,7 +66,7 @@ const CloudDriveCard: React.FC<{
   desc: string;
   buttonText: string;
   colorClass: string;
-  link: string; 
+  link: string;
 }> = ({ name, icon, desc, buttonText, colorClass, link }) => (
   <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 text-center hover:shadow-md transition-all">
     <div
@@ -113,42 +113,42 @@ const Download: React.FC = () => {
           <VersionButton
             platform="Android"
             arch="arm64-v8a"
-            filename="呆呆阅读Readio0.0.5b-arm64-v8a-android.apk"
+            filename="呆呆阅读Readio0.0.6c-arm64-v8a-android.apk"
             icon={<Smartphone size={22} />}
             badge="推荐"
-            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.5b-arm64-v8a-android.apk"
+            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.6c-arm64-v8a-android.apk"
           />
           <VersionButton
             platform="Android"
             arch="armeabi-v7a"
-            filename="呆呆阅读Readio0.0.5b-armeabi-v7a-android.apk"
+            filename="呆呆阅读Readio0.0.6c-armeabi-v7a-android.apk"
             icon={<Smartphone size={22} />}
             badge="老旧设备"
-            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.5b-armeabi-v7a-android.apk"
+            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.6c-armeabi-v7a-android.apk"
           />
           <VersionButton
             platform="Android"
             arch="x86_64"
-            filename="呆呆阅读Readio0.0.5b-x86_64-android.apk"
+            filename="呆呆阅读Readio0.0.6c-x86_64-android.apk"
             icon={<Tv size={22} />}
             badge="模拟器"
-            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.5b-x86_64-android.apk"
+            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.6c-x86_64-android.apk"
           />
 
           {/* Desktop Versions */}
           <VersionButton
             platform="Windows"
             arch="x64 / exe"
-            filename="呆呆阅读Readio0.0.5b_windows.zip"
+            filename="呆呆阅读Readio0.0.6c_windows.zip"
             icon={<Monitor size={22} />}
-            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.5b_windows.zip"
+            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.6c_windows.zip"
           />
           <VersionButton
             platform="macOS"
             arch="Universal / app"
-            filename="呆呆阅读Readio0.0.4_mac.zip"
+            filename="呆呆阅读Readio0.0.5b_mac.zip"
             icon={<Monitor size={22} />}
-            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.4_mac.zip"
+            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.5b_mac.zip"
           />
         </div>
 
@@ -177,7 +177,7 @@ const Download: React.FC = () => {
             colorClass="bg-blue-600"
             desc="提取码：8888"
             buttonText="前往下载"
-            link="https://pan.baidu.com/s/1dOkCeEtl1wRMEnAyacYOPA?pwd=8888" 
+            link="https://pan.baidu.com/s/1dOkCeEtl1wRMEnAyacYOPA?pwd=8888"
           />
           <CloudDriveCard
             name="夸克网盘"
@@ -185,7 +185,7 @@ const Download: React.FC = () => {
             colorClass="bg-indigo-500"
             desc="不限速下载"
             buttonText="前往下载"
-            link="https://pan.quark.cn/s/26d2e080a02b" 
+            link="https://pan.quark.cn/s/26d2e080a02b"
           />
         </div>
       </div>

@@ -204,6 +204,65 @@ const Guide: React.FC = () => {
             </div>
           </section>
 
+          {/* NEW Section: OpenList */}
+          <section
+            id="openlist"
+            className="pt-8 border-t border-slate-100"
+          >
+            <div className="flex items-center gap-3 mb-6">
+              <div className="bg-cyan-100 p-2 rounded-lg text-cyan-600">
+                <Wifi size={24} />
+              </div>
+              <h2 className="text-2xl font-bold text-slate-800">
+                用 OpenList 连接网盘（小白推荐）
+              </h2>
+            </div>
+
+            <p className="text-slate-600 text-sm mb-4 leading-relaxed">
+              如果你对 NAS、WebDAV 等概念不熟悉，只是想“简单把网盘里的绘本挂到
+              Readio 里用”，推荐使用{" "}
+              <strong>OpenList Android App</strong>{" "}
+              来一键部署。它可以把你常用的网盘（阿里云盘等）转换成类似
+              WebDAV 的访问方式，让同一局域网内的 Readio 直接读取。
+            </p>
+
+            <div className="bg-cyan-50 border border-cyan-200 rounded-lg p-4 mb-4">
+              <h3 className="font-semibold text-cyan-800 text-sm mb-2">
+                🧩 适合谁？
+              </h3>
+              <ul className="list-disc ml-5 text-cyan-800 text-sm space-y-1">
+                <li>不想折腾 NAS / 服务器，只用家里一台安卓盒子或安卓平板。</li>
+                <li>希望把网盘里的绘本集中到一个“书架”入口中统一管理。</li>
+                <li>希望 Readio、电视、电脑在同一局域网内都能访问这些资源。</li>
+              </ul>
+            </div>
+
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
+              <h3 className="font-semibold text-slate-800 text-sm mb-2">
+                🚶‍♂️ 简要步骤示意
+              </h3>
+              <ol className="list-decimal ml-5 text-slate-700 text-sm space-y-1">
+                <li>在安卓盒子 / 安卓设备上安装并打开 OpenList App。</li>
+                <li>在 OpenList 内按向导添加网盘账号（如：阿里云盘等）。</li>
+                <li>在 OpenList 中开启 Web 服务 / WebDAV 或本地访问入口。</li>
+                <li>
+                  在 Readio 中选择 WebDAV / OpenList 模式，把 OpenList
+                  提供的地址粘贴进去，即可浏览网盘绘本。
+                </li>
+              </ol>
+
+              <div className="mt-4">
+                <a
+                  href="https://doc.oplist.org/guide"
+                  target="_blank"
+                  className="inline-flex items-center justify-center px-4 py-2 bg-cyan-600 text-white text-sm rounded-lg hover:bg-cyan-700 transition-colors shadow-sm"
+                >
+                  查看 OpenList 官方使用指南
+                </a>
+              </div>
+            </div>
+          </section>
+
           {/* Section 3: FAQ */}
           <section id="faq" className="pt-8 border-t border-slate-100">
             <div className="flex items-center gap-3 mb-6">
@@ -270,6 +329,15 @@ const Guide: React.FC = () => {
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-slate-300 hover:bg-brand-400"></span>
                   支持的文件源
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#openlist"
+                  className="flex items-center gap-2 text-slate-700 hover:text-brand-600 transition-colors"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-slate-300 hover:bg-brand-400"></span>
+                  用 OpenList 连接网盘
                 </a>
               </li>
               <li>
