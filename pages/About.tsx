@@ -22,6 +22,36 @@ const About: React.FC = () => {
           </div>
 
           <div className="relative border-l-2 border-slate-200 ml-3 space-y-8">
+
+            <div className="ml-6 relative">
+              <span className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-brand-500 border-4 border-white shadow-sm"></span>
+              <h3 className="text-lg font-bold text-slate-900">
+                v0.0.7{" "}
+                <span className="text-xs font-normal text-slate-400 ml-2">
+                  2026-01-28
+                </span>
+              </h3>
+              <ul className="mt-2 space-y-1 text-sm text-slate-600 list-disc list-inside">
+                <li>新增清除缓存功能</li>
+                <li>优化webdav和smb书库连接</li>
+              </ul>
+            </div>
+
+            <div className="ml-6 relative">
+              <span className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-brand-500 border-4 border-white shadow-sm"></span>
+              <h3 className="text-lg font-bold text-slate-900">
+                v0.0.6{" "}
+                <span className="text-xs font-normal text-slate-400 ml-2">
+                  2025-12-18
+                </span>
+              </h3>
+              <ul className="mt-2 space-y-1 text-sm text-slate-600 list-disc list-inside">
+                <li>📖 显示阅读进度和累计阅读时间</li>
+                <li>🕒 新增「最近阅读」功能，快速继续上次阅读</li>
+                <li>📊 新增阅读统计，清楚看到每天、每周的阅读情况</li>
+              </ul>
+            </div>
+
             <div className="ml-6 relative">
               <span className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-brand-500 border-4 border-white shadow-sm"></span>
               <h3 className="text-lg font-bold text-slate-900">

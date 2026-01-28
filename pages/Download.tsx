@@ -97,7 +97,7 @@ const Download: React.FC = () => {
           请根据您的设备类型选择合适的安装包
         </p>
         <div className="mt-4 inline-flex items-center px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-mono">
-          Current Version: v0.0.5
+          Current Version: v0.0.7
         </div>
       </div>
 
@@ -113,42 +113,49 @@ const Download: React.FC = () => {
           <VersionButton
             platform="Android"
             arch="arm64-v8a"
-            filename="呆呆阅读Readio0.0.6c-arm64-v8a-android.apk"
+            filename="呆呆阅读Readio0.0.7-arm64-v8a-android.apk"
             icon={<Smartphone size={22} />}
             badge="推荐"
-            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.6c-arm64-v8a-android.apk"
+            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.7-arm64-v8a-android.apk"
           />
           <VersionButton
             platform="Android"
             arch="armeabi-v7a"
-            filename="呆呆阅读Readio0.0.6c-armeabi-v7a-android.apk"
+            filename="呆呆阅读Readio0.0.7-armeabi-v7a-android.apk"
             icon={<Smartphone size={22} />}
             badge="老旧设备"
-            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.6c-armeabi-v7a-android.apk"
+            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.7-armeabi-v7a-android.apk"
           />
           <VersionButton
             platform="Android"
             arch="x86_64"
-            filename="呆呆阅读Readio0.0.6c-x86_64-android.apk"
+            filename="呆呆阅读Readio0.0.7-x86_64-android.apk"
             icon={<Tv size={22} />}
             badge="模拟器"
-            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.6c-x86_64-android.apk"
+            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.7-x86_64-android.apk"
           />
 
           {/* Desktop Versions */}
           <VersionButton
             platform="Windows"
             arch="x64 / exe"
-            filename="呆呆阅读Readio0.0.6c_windows.zip"
+            filename="呆呆阅读Readio0.0.7-windows.zip"
             icon={<Monitor size={22} />}
-            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.6c_windows.zip"
+            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.7-windows.zip"
           />
           <VersionButton
             platform="macOS"
             arch="Universal / app"
-            filename="呆呆阅读Readio0.0.5b_mac.zip"
+            filename="呆呆阅读Readio0.0.7-mac.zip"
             icon={<Monitor size={22} />}
-            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.5b_mac.zip"
+            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.7-mac.zip"
+          />
+          <VersionButton
+            platform="ios"
+            arch="iphone/ipad / ipa"
+            filename="呆呆阅读Readio0.0.7-ios.ipa"
+            icon={<Monitor size={22} />}
+            link="https://hydjan.github.io/dd/呆呆阅读Readio0.0.7-ios.ipa"
           />
         </div>
 
