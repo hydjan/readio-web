@@ -26,6 +26,87 @@ const About: React.FC = () => {
             <div className="ml-6 relative">
               <span className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-brand-500 border-4 border-white shadow-sm"></span>
               <h3 className="text-lg font-bold text-slate-900">
+                v0.1.3{" "}
+                <span className="text-xs font-normal text-slate-400 ml-2">
+                  2026-05-25
+                </span>
+              </h3>
+              <ul className="mt-2 space-y-1 text-sm text-slate-600 list-disc list-inside">
+                <li>🖥️ 新增视频字幕开关，支持灵活开启/关闭字幕显示</li>
+              </ul>
+            </div>
+
+            <div className="ml-6 relative">
+              <span className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-brand-500 border-4 border-white shadow-sm"></span>
+              <h3 className="text-lg font-bold text-slate-900">
+                v0.1.2{" "}
+                <span className="text-xs font-normal text-slate-400 ml-2">
+                  2026-05-23
+                </span>
+              </h3>
+              <ul className="mt-2 space-y-1 text-sm text-slate-600 list-disc list-inside">
+                <li>🔄 新增视频“自动播放下一集”功能，支持连续播放，学习更流畅</li>
+              </ul>
+            </div>
+
+            <div className="ml-6 relative">
+              <span className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-brand-500 border-4 border-white shadow-sm"></span>
+              <h3 className="text-lg font-bold text-slate-900">
+                v0.1.1{" "}
+                <span className="text-xs font-normal text-slate-400 ml-2">
+                  2026-05-22
+                </span>
+              </h3>
+              <ul className="mt-2 space-y-1 text-sm text-slate-600 list-disc list-inside">
+                <li>📊 新增视频播放进度自动记录与统计，学习时长一目了然</li>
+              </ul>
+            </div>
+
+            <div className="ml-6 relative">
+              <span className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-brand-500 border-4 border-white shadow-sm"></span>
+              <h3 className="text-lg font-bold text-slate-900">
+                v0.1.0{" "}
+                <span className="text-xs font-normal text-slate-400 ml-2">
+                  2026-05-21
+                </span>
+              </h3>
+              <ul className="mt-2 space-y-1 text-sm text-slate-600 list-disc list-inside">
+                <li>🎬 重磅上线“视频多媒体播放”功能</li>
+                <li>⏱️ 支持按句跳转与精读精听模式</li>
+                <li>🔤 支持字幕点击查词，实现音视频无缝取词学习</li>
+              </ul>
+            </div>
+
+            <div className="ml-6 relative">
+              <span className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-brand-500 border-4 border-white shadow-sm"></span>
+              <h3 className="text-lg font-bold text-slate-900">
+                v0.0.9{" "}
+                <span className="text-xs font-normal text-slate-400 ml-2">
+                  2026-03-02
+                </span>
+              </h3>
+              <ul className="mt-2 space-y-1 text-sm text-slate-600 list-disc list-inside">
+                <li>📂 新增自定义离线词典导入功能</li>
+                <li>📚 网盘配套提供 77 万词义容量的离线超大词典包</li>
+              </ul>
+            </div>
+
+            <div className="ml-6 relative">
+              <span className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-brand-500 border-4 border-white shadow-sm"></span>
+              <h3 className="text-lg font-bold text-slate-900">
+                v0.0.8{" "}
+                <span className="text-xs font-normal text-slate-400 ml-2">
+                  2026-01-31
+                </span>
+              </h3>
+              <ul className="mt-2 space-y-1 text-sm text-slate-600 list-disc list-inside">
+                <li>🔍 新增集成字典查词与生词本功能，随读随查</li>
+              </ul>
+            </div>
+
+            <div className="ml-6 relative">
+              <span className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-brand-500 border-4 border-white shadow-sm"></span>
+              <h3 className="text-lg font-bold text-slate-900">
                 v0.0.7{" "}
                 <span className="text-xs font-normal text-slate-400 ml-2">
                   2026-01-28

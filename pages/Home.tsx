@@ -101,7 +101,7 @@ const Home: React.FC = () => {
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-400 opacity-75"></span>
                     <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-500"></span>
                   </span>
-                  v0.0.7 正式发布
+                  v0.1.3 正式发布
                 </span>
               </div>
 
