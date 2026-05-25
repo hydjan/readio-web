@@ -126,8 +126,8 @@ const Home: React.FC = () => {
               </div>
 
               <div className="text-slate-400 text-sm font-medium flex items-center justify-center lg:justify-start gap-6">
-                <span className="flex items-center gap-2"><Monitor size={16} /> TV/PC</span>
-                <span className="flex items-center gap-2"><Wifi size={16} /> NAS/WebDAV</span>
+                <span className="flex items-center gap-2"><Monitor size={16} /> TV/PC 手机/平板 全平台支持</span>
+                <span className="flex items-center gap-2"><Wifi size={16} /> NAS/WebDAV/OpenList连接网盘</span>
               </div>
             </div>
 
